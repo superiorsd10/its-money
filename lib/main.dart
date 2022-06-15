@@ -30,6 +30,7 @@ class MyApp extends StatelessWidget {
       text: "LOADING...",
       textType: TextType.TyperAnimatedText,
       textStyle: const TextStyle(
+        color: Colors.black,
         fontSize: 30.0,
         fontFamily: 'MinecraftTen'
       ),

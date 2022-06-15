@@ -35,3 +35,10 @@ const resultBodyTextStyle = TextStyle(
   fontFamily: 'MinecraftRegular',
   fontWeight: FontWeight.bold,
 );
+
+const instructionsTextStyle = TextStyle(
+  color: Colors.black,
+  fontFamily: 'MinecraftRegular',
+  fontSize: 16,
+  fontWeight: FontWeight.bold,
+);

@@ -1,6 +1,7 @@
 import 'package:bordered_text/bordered_text.dart';
 import 'package:flutter/material.dart';
 import 'package:glitch_text/glitch_text.dart';
+import 'package:money_money_money/constants.dart';
 import 'package:money_money_money/screens/home_page.dart';
 
 class Instructions extends StatelessWidget {
@@ -33,66 +34,42 @@ class Instructions extends StatelessWidget {
               children: const [
                 Text(
                   '1. Tap on the CALCULATE button!',
-                  style: TextStyle(
-                    fontFamily: 'MinecraftRegular',
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: instructionsTextStyle,
                 ),
                 SizedBox(
                   height: 25,
                 ),
                 Text(
                   '2. Choose one of the two interests!',
-                  style: TextStyle(
-                    fontFamily: 'MinecraftRegular',
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: instructionsTextStyle,
                 ),
                 SizedBox(
                   height: 25,
                 ),
                 Text(
                   '3. Select the interest percentage in chosen interest field.',
-                  style: TextStyle(
-                    fontFamily: 'MinecraftRegular',
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: instructionsTextStyle,
                 ),
                 SizedBox(
                   height: 25,
                 ),
                 Text(
                   '4. Select number of hours per day you put in your chosen field.',
-                  style: TextStyle(
-                    fontFamily: 'MinecraftRegular',
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: instructionsTextStyle,
                 ),
                 SizedBox(
                   height: 25,
                 ),
                 Text(
                   '5. Select number of years of experience you have in your chosen field.',
-                  style: TextStyle(
-                    fontFamily: 'MinecraftRegular',
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: instructionsTextStyle,
                 ),
                 SizedBox(
                   height: 25,
                 ),
                 Text(
                   '6. Tap on the CALCULATE YOUR PACKAGE BUTTON.',
-                  style: TextStyle(
-                    fontFamily: 'MinecraftRegular',
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: instructionsTextStyle,
                 ),
               ],
             ),

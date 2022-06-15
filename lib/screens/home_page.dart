@@ -103,7 +103,7 @@ class _HomePageState extends State<HomePage> {
                         childCard: const TopCardContent(
                           topPadding: 0,
                           imagePath: 'assets/webd.png',
-                          title: 'WEBD',
+                          title: 'DEV',
                         ),
                       ),
                     ),
