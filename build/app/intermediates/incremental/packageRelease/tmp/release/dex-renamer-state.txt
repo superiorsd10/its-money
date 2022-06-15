@@ -1,4 +1,0 @@
-#Wed Jun 15 20:34:21 IST 2022
-base.0=/Users/sachin/StudioProjects/money_money_money/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
