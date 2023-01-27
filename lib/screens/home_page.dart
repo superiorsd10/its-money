@@ -2,7 +2,6 @@ import 'package:bordered_text/bordered_text.dart';
 import 'package:flutter/material.dart';
 import 'package:money_money_money/components/money_card.dart';
 import 'package:money_money_money/screens/results_page.dart';
-import 'package:money_money_money/theme_model.dart';
 import 'package:money_money_money/components/top_card_content.dart';
 import 'package:provider/provider.dart';
 import 'package:money_money_money/components/package_calculator.dart';
@@ -37,7 +36,6 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Consumer(builder: (context, ThemeModel themeNotifier, child) {
       return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.black.withOpacity(0.70),
@@ -50,20 +48,6 @@ class _HomePageState extends State<HomePage> {
               fontSize: 30,
             ),
           ),
-          actions: [
-            IconButton(
-              onPressed: () {
-                themeNotifier.isDark
-                    ? themeNotifier.isDark = false
-                    : themeNotifier.isDark = true;
-              },
-              icon: Icon(
-                themeNotifier.isDark ? Icons.wb_sunny : Icons.nightlight_round,
-                size: 20,
-                color: moneyColor,
-              ),
-            ),
-          ],
         ),
         body: GestureDetector(
           child: Column(
@@ -362,7 +346,6 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
       );
-    });
+    }
   }
-}
 

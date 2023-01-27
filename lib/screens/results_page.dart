@@ -1,7 +1,6 @@
 import 'package:bordered_text/bordered_text.dart';
 import 'package:flutter/material.dart';
 import 'package:money_money_money/components/money_card.dart';
-import 'package:money_money_money/theme_model.dart';
 import 'package:provider/provider.dart';
 import 'package:money_money_money/constants.dart';
 import 'package:money_money_money/components/bottom_button.dart';
@@ -19,7 +18,6 @@ class ResultsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Consumer(builder: (context, ThemeModel themeNotifier, child) {
       return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.black.withOpacity(0.70),
@@ -32,20 +30,6 @@ class ResultsPage extends StatelessWidget {
               fontSize: 30,
             ),
           ),
-          actions: [
-            IconButton(
-              onPressed: () {
-                themeNotifier.isDark
-                    ? themeNotifier.isDark = false
-                    : themeNotifier.isDark = true;
-              },
-              icon: Icon(
-                themeNotifier.isDark ? Icons.wb_sunny : Icons.nightlight_round,
-                size: 20,
-                color: moneyColor,
-              ),
-            ),
-          ],
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -114,6 +98,5 @@ class ResultsPage extends StatelessWidget {
           ],
         ),
       );
-    });
+    }
   }
-}
