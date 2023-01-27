@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       imageSize: 600,
       imageSrc: "assets/its_money.png",
       text: "Fetching...",
-      textType: TextType.TyperAnimatedText,
+      textType: TextType.WavyAnimatedText,
       textStyle: const TextStyle(
           color: Colors.black, fontSize: 30.0, fontFamily: 'MinecraftTen'),
       backgroundColor: Colors.yellow,
