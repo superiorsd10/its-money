@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:money_money_money/components/money_card.dart';
 import 'package:money_money_money/screens/results_page.dart';
 import 'package:money_money_money/components/top_card_content.dart';
-import 'package:provider/provider.dart';
 import 'package:money_money_money/components/package_calculator.dart';
 import 'package:cool_alert/cool_alert.dart';
 import 'package:money_money_money/constants.dart';

@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:splash_screen_view/SplashScreenView.dart';
 import 'screens/home_page.dart';
 import 'screens/instructions.dart';
-import 'screens/results_page.dart';
-import 'package:dark_light_button/dark_light_button.dart';
-// import 'package:splashscreen/splashscreen.dart';
-import 'package:easy_splash_screen/easy_splash_screen.dart';
-import 'package:splash_screen_view/splash_screen_view.dart';
 
 void main() {
   runApp(const MyApp());

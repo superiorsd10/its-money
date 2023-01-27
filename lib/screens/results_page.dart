@@ -1,7 +1,6 @@
 import 'package:bordered_text/bordered_text.dart';
 import 'package:flutter/material.dart';
 import 'package:money_money_money/components/money_card.dart';
-import 'package:provider/provider.dart';
 import 'package:money_money_money/constants.dart';
 import 'package:money_money_money/components/bottom_button.dart';
 
