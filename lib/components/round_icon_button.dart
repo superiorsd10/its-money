@@ -26,7 +26,7 @@ class _RoundIconButtonState extends State<RoundIconButton> {
     return RawMaterialButton(
       onPressed: widget.onPressed,
       child: widget.child,
-      elevation: 6,
+      elevation: 0,
       constraints: const BoxConstraints.tightFor(
         width: 56,
         height: 56,

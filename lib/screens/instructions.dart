@@ -86,7 +86,7 @@ class Instructions extends StatelessWidget {
                 );
               },
               style: ElevatedButton.styleFrom(
-                primary: Colors.red,
+                backgroundColor: Colors.red,
               ),
               child: Padding(
                 padding: const EdgeInsets.all(10.0),
