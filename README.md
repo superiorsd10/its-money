@@ -15,3 +15,12 @@ It's Money is a simple fun application that predicts your salary after your plac
 - Make a `Pull Request` to the main branch in the original repository, i.e. this one.
 
 Note: Make sure you are always up to date with sync and pull upstream. Sync and pull before you start and before you push your work.
+
+## Setup
+```
+$ Clone the project.
+$ Open it on Android Studio, or Visual Studio Code or any other IDE that supports the technologies used.
+$ Run the following command on the terminal:- "flutter pub get".
+$ Select the device where you want to run this project.
+$ Run the project.
+```
